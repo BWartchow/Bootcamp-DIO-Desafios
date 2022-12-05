@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    </head>
+    <body>
+        <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+        <hr />
+    
+        <h2 id="indice">Índice</h2>
+        <ul>
+            <li><a href="#computadores">História dos computadores</a></li>
+            <li><a href="#client">O que são <i>Clients</i>?</a></li>
+            <li><a href="#server">O que são <i>Servers</i>?</a></li>
+            <li><a href="#html">Como é uma estrutura básica de um HTML?</a></li>
+            <li><del>Extra: Alterando a fonte com o uso de tags:</del></li>
+            <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+            <li><a href="#links">Links de referências</a></li>
+        </ul>
+       
+        <h2 id="computadores">História dos computadores</h2>
+        <ol>
+        <li><strong><u>Primeira Geração:</u> </strong></li>
+            <ul>
+                <li>A primeira geração de computadores é anterior a 1959, eram grandes máquinas e tinham como objetivo o <u>uso militar.</u></li>
+                <li>Eles funcionavam por meio de <i>válvulas</i> e <i>circuitos</i>. Necessitavam amplo espaço físico e gasto de energia. </li>
+            </ul>
+        <li><strong><u>Segunda Geração:</u> </strong></li>
+            <ul>
+                <li>A segunda geração (1959 - 1965) ainda era caracterizada por máquinas grandes. No lugar das válvulas, eram utilizados <i>transistores</i>.</li>
+                <li>Assim, eles eram mais rápidos e começaram a ter <u>uso comercial.</u></li>
+             </ul>
+        <li><strong><u>Terceira Geração:</u> </strong></li>
+            <ul>
+                <li>A terceira geração de computadores (1965 - 1970) funcionava por meio de <i>circuitos integrados</i>.</li>
+                <li>Já eram menores e tinham mais capacidade de processamento.</li>
+                <li>Foi o início dos <i>PCs - personal computers</i>, ou computadores de <u>uso pessoal.</u></li>
+            </ul>
+        <li><strong><u>Quarta Geração:</u> </strong></li>
+             <ul>
+                <li>A partir de 1971, alguns autores dizem durar até os dias atuais.</li>
+                <li>Os computadores diminuem de tamanho, aumentam a velocidade e a capacidade de processamento.</li>
+                <li>Início dos <i>microprocessadores</i>, com gasto menor de energia. Surgimento dos <u>dispositivos portáteis.</u></li>
+                <li>A suposta <strong>Quinta Geração</strong> em que alguns autores dizem que vivemos atualmente, refere-se à inteligência artificial, metaverso, dentre outros avanços tecnológicos.</li>
+            </ul>
+        </ol>
+        <p><small>Retornar ao <a href="#indice" title="Voltar ao topo">Índice</a>.</small></p>
+    
+        <h2 id="client">O que são <i>Clients</i>?</h2>
+        <p style="text-align: justify;">
+            O termo <i>client</i> remete à arquitetura de redes baseada em clientes e servidores. Neste caso, os <u>clientes</u> podem ser os computadores pessoais, notebooks, smartphones, que acessam através da internet o servidor remoto.
+            Este acesso é feito pelos navegadores ou <i>browsers</i> e aplicações web.
+        </p>
+        <p><small>Retornar ao <a href="#indice" title="Voltar ao topo">Índice</a>.</small></p>
+    
+        <h2 id="server">O que são <i>Servers</i>?</h2>
+        <p style="text-align: justify;">
+            O termo <i>server</i> remete à arquitetura de redes baseada em clientes e servidores. Neste caso, os <u>servidores</u> podem ser remotos ou locais. Os remotos são acessador pela <strong>internet</strong> e os locais pela <strong>intranet</strong>.
+            Possuem <i>softwares</i> e <i>hardwares</i>. São responsáveis por acessar bancos de dados, retornar ao usuário o que foi solicitado, fazer a parte de segurança (proxy, firewall), hospedar sites e serviços de e-mail, dentre outros.
+        </p>
+        <p><small>Retornar ao <a href="#indice" title="Voltar ao topo">Índice</a>.</small></p>
+    
+        <h2 id="html">Como é uma estrutura básica de um HTML?</h2>
+        <p style="text-align: justify;">
+            O HTML é um arquivo de marcação que serve para indicar ao navegador o que cada texto representa e qual deve ser seu comportamento. Para isso, são utilizadas <mark>tags de marcação</mark>, que podem ou não ter fechamento e possuem atributos, alguns deles específicos.<br>
+            A estrutura básica do arquivo HTML é composta pelas tags:<b>"< html>"</b>que indica para o navegador que se trata de um arquivo html. Dentro dessa tag, há a tag de cabeçalho (<b>"< head>"</b>). Dentro dela, a tag de título da página (<b>"< title>"</b>), que é o título da aba no navegador. Ainda há a tag do corpo da página
+            (<b>"< body>"</b>), que é efetivamente o que será exibido ao usuário que acessa a página. Dentro desta, há várias tags específicas de formatação de texto que podem ser utilizadas: <br>
+            Tag de itálico: <i>i</i>
+            <br>Tag de negrito: <strong>strong</strong>
+            <br>Tag de sublinhado: <u>u</u>
+            <br>Exemplos de tag sem fechamento: input, img.
+            <br>Tag com atributo específico de entrada de texto: <input type="text"> <sub>experimente digitar um texto na caixa ao lado!</sub>
+        </p>
+        <blockquote>
+            Tags explicadas nas aulas do bootcamp da DIO<sup>*</sup>: < h1> até < h6>, < p>, < mark>, < small>, < i>, < u>, < strong>, < ol>, < ul>, < li>, < a>, < hr>, < sub>, < sup>, <br>e < blockquote>, que é o que está sendo usado aqui.;
+        </blockquote>
+        <h4 style="text-align: center;">Extra: Alterando a fonte com o uso de tags:</h4>
+        <p style="text-align: center;">
+            <font face="Arial"> Arial </font> <br />
+            <font face="Courier"> Courier </font> <br />
+            <font face="Georgia"> Georgia </font> <br />
+            <font face="Helvetica"> Helvetica </font> <br />
+            <font face="Times"> Times </font> <br />
+            <font face="Tribuchet"> Trebuchet </font> <br />
+            <font face="Verdana"> Verdana </font> <br />
+            <font color="#FF0000"> Este texto em vermelho usando tags e cor hexadecimal </font> <br />
+            <font color="Blue"> Esse em azul também com tags e nome da cor </font> <br>
+            <font size="1"> Tamanho desta fonte:  1</font> <br />
+            <font size="2"> Tamanho desta fonte:  2</font> <br />
+            <font size="3"> Tamanho desta fonte:  3</font> <br />
+            <font size="4"> Tamanho desta fonte:  4</font> <br />
+            <font size="5"> Tamanho desta fonte:  5</font> <br />
+            <font size="6"> Tamanho desta fonte:  6</font> <br />
+            <font size="7"> Tamanho desta fonte:  7</font> <br />
+        </p>
+        <p><small>Retornar ao <a href="#indice" title="Voltar ao topo">Índice</a>.</small></p>
+    
+        <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+        <p style="text-align: justify;">
+            A principal diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os itens de cada lista são apresentados - a lista ordenada enumera os elementos; a lista não-ordenada coloca marcadores antes de cada elemento.
+            <ol>
+                <li>Item um de lista ordenada.</li>
+                <li>Item dois de lista ordenada.</li>
+                <li>Item três de lista ordenada.</li>
+            </ol>
+
+            <ul>
+                <li>Lista não ordenada.</li>
+                <li>Itens não ordenados por números.</li>
+                <li>Há apenas marcadores identificando os itens.</li>
+            </ul>
+        </p>
+        <p><small>Retornar ao <a href="#indice" title="Voltar ao topo">Índice</a>.</small></p>
+    
+        <h2 id="links">Links de referências</h2>
+        <p>
+            Esta página foi baseada nas aulas do <i>Bootcamp Diversidade em Tech</i><sup>*</sup>, assistidas no site da <a href="http://dio.me" title="Clique aqui e confira" target="_blank">DIO.me</a>
+        </p>
+        <p>
+            Mais sobre história da web <a href="http://w3c.org" title="Clique aqui e confira" target="_blank">aqui.</a>
+        </p>
+        <p><small>Retornar ao <a href="#indice" title="Voltar ao topo">Índice</a>.</small></p>
+        
+    </body>
+</html>
+
+
