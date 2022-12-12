@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <style>
+        .row {
+            margin: 5px;
+        }
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+            margin: 5px 0;
+        }
+        fieldset {
+            margin: 15px 0;
+        }
+        #button {
+            margin-left: 300px;
+            display: block;
+        }
+    </style>
+
+    <h1>Aula: Trabalhando com Formulários!</h1>
+    <div>
+        <h2>Exemplo de Formulário de Cadastro</h2>
+        <form name="signup" target="_blank" onsubmit="alert('Envei o formulário')" autocomplete="on" method="post" action="#">
+            <label>Nome:</label> <input type="text" name="name"/><br>
+            <label>Idade:</label> <input type="number" min="0" name="age"/><br>
+            <label>Senha:</label> <input type="password" name="password"/><br>
+            <button id="button" type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <h2>Tipos de input html</h2>
+    <p>(nem todos funcionam em todos os navegadores)</p>
+    <div class="row">
+        <label>Text:</label> <input type="text"/>
+        <label>Number:</label> <input type="number" step="5" max="100"/>
+        <label>Range:</label> <input type="range" min="0" max="100" value="50"/><br>
+        <label>Url:</label> <input type="url" />
+        <label>Email:</label> <input type="email" />
+        <label>Password:</label> <input type="password"/><br>
+        <label>Month:</label> <input type="month" />
+        <label>Week:</label> <input type="week" />
+        <label>Date:</label> <input type="date" /> <br>
+        <label>Search:</label> <input type="search" />
+        <label>File:</label> <input type="file" multiple /> <br>
+        <label>Radio:</label> <input type="radio" name="aceita"/><input type="radio" name="aceita"/>
+        <label>Checkbox:</label> <input type="checkbox" /><input type="checkbox" /><input type="checkbox" />
+        <label>Color:</label> <input type="color" />
+        <label>Hidden:</label> <input type="hidden" /> <br>
+        <label>Button:</label> <input type="reset" value="Limpar"/><br>
+    </div>
+
+    <div>
+        <h2>Select, Checkbox e Radio</h2>
+        <form method="post" target="_blank" onsubmit="alert('Pedido Realizado!')">
+            <fieldset>
+                <legend>Sabor da pizza</legend>         
+                <select name="role">
+                    <option value="">Selecione o sabor</option>
+                    <option value="saborchocolate">Brigadeiro</option>
+                    <option value="saborcalabresa">Calabresa</option>
+                    <option value="sabormussarela">Mussarela</option>
+                </select>
+            </fieldset>
+            <h3>Você selecionou pizza de calabresa!</h3>
+            <fieldset>
+                <legend>Quais opcionais você quer?</legend>  
+                <input type="checkbox" disabled name="opcionais[]" value="chocolate"> + chocolate <br>
+                <input type="checkbox" name="opcionais[]" value="queijo"> + queijo <br>
+                <input type="checkbox" name="opcionais[]" value="cebola"> + cebola <br>
+                <input type="checkbox" name="opcionais[]" value="calabresa"> + calabresa <br>
+                <input type="checkbox" name="opcionais[]" value="azeitona"> + azeitona <br>
+            </fieldset>
+            <fieldset>
+                <legend>Borda recheada?</legend>
+                <input type="radio" name="borda" value="sim"> Sim <br>
+                <input type="radio" name="borda" value="nao"> Não <br>
+            </fieldset>
+            <fieldset>
+                <legend>Bebida:</legend>
+                <input type="radio" name="bebida" value="refrigerante"> Refrigerante <br>
+                <input type="radio" name="bebida" value="agua"> Água <br>
+                <input type="radio" name="bebida" value="suco"> Suco <br>
+                <input type="radio" name="bebida" value="nenhuma"> Nenhuma <br>
+            </fieldset>
+            <fieldset>
+                <legend>Observações:</legend>
+                <textarea rows="5" cols="30" name="message"></textarea><br>
+            </fieldset>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </div>
+
+</body>
+</html>
