@@ -11,5 +11,5 @@
 - [Confira o site no navegador aqui.](https://bsw-desafio-html.netlify.app/)
 #### Desafio 04 - Primeira landing page com HTML e CSS
 - Esse desafio tem a proposta da criação da sua primeira Landing Page institucional, utilizando HTML e CSS, onde o usuário poderá visualizar a divulgação de um projeto. Dessa forma, será necessário inserir elementos e informações fundamentais de um site. O link do protótipo disponibilizado pela Dio no Figma está disponível [aqui](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=0%3A1&t=IPxvJVspdxyIwmtE-0) e foi a base para a realização deste projeto.
-- [Confira minha entrega deste desafio aqui.]()
+- [Confira minha entrega deste desafio aqui.](https://github.com/BWartchow/Bootcamp-DIO-Desafios/tree/main/Desafio_CSS)
 - [Confira o site no navegador aqui.](https://bsw-desafio-css.netlify.app/)
