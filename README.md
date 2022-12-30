@@ -13,3 +13,7 @@
 - Esse desafio tem a proposta da criação da sua primeira Landing Page institucional, utilizando HTML e CSS, onde o usuário poderá visualizar a divulgação de um projeto. Dessa forma, será necessário inserir elementos e informações fundamentais de um site. O link do protótipo disponibilizado pela Dio no Figma está disponível [aqui](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=0%3A1&t=IPxvJVspdxyIwmtE-0) e foi a base para a realização deste projeto.
 - [Confira minha entrega deste desafio aqui.]()
 - [Confira o site no navegador aqui.](https://bsw-desafio-css.netlify.app/)
+#### Desafio 05 - Construindo uma pokedex com HTML, CSS e JavaScript
+- Este desafio tem como objetivo explorar, além do JavaScript, todos os fundamentos de desenvolvimento Web aprendidos até aqui, e construir sua primeira página interativa. Ainda, fazer o consumo de uma API REST para a criação de uma Pokédex dinâmica.
+- [Confira minha entrega deste desafio aqui.]()
+- [Confira o site no navegador aqui.](https://bsw-desafio-pokedex.netlify.app/)
