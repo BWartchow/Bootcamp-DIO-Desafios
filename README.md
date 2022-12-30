@@ -15,5 +15,5 @@
 - [Confira o site no navegador aqui.](https://bsw-desafio-css.netlify.app/)
 #### Desafio 05 - Construindo uma pokedex com HTML, CSS e JavaScript
 - Este desafio tem como objetivo explorar, além do JavaScript, todos os fundamentos de desenvolvimento Web aprendidos até aqui, e construir sua primeira página interativa. Ainda, fazer o consumo de uma API REST para a criação de uma Pokédex dinâmica.
-- [Confira minha entrega deste desafio aqui.]()
+- [Confira minha entrega deste desafio aqui.](https://github.com/BWartchow/Bootcamp-DIO-Desafios/tree/main/Pokedex)
 - [Confira o site no navegador aqui.](https://bsw-desafio-pokedex.netlify.app/)
